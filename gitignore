@@ -1,0 +1,58 @@
+# AF Data Studio - Git ignore rules
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Frontend environment files
+.env
+.env.*
+!.env.example
+
+# Backend build output
+target/
+*.class
+
+# Local application configuration and secrets
+application-local.properties
+application-local.yml
+application-local.yaml
+*.keystore
+*.jks
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Test and temporary files
+coverage/
+.tmp/
+temp/
+
+# Local database exports / backups
+*.sql
+*.dump
+*.bak
+
+# Keep Maven wrapper files and example environment templates tracked
+!.mvn/wrapper/maven-wrapper.jar
+!.env.example
